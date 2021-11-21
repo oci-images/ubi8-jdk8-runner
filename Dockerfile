@@ -29,7 +29,7 @@ RUN microdnf install -y tzdata openssl curl ca-certificates fontconfig glibc-lan
 LABEL name="ubi-jdk8-minimal" \
       vendor="Oci-Images-Project" \
       version="jdk8u312-b07" \
-      release="11" \
+      release="8" \
       run="docker run --rm -ti <image_name:tag> /bin/bash" \
       summary="Adoptium Temurin  OCI Image for OpenJDK with hotspot and ubi-minimal for runs Java applications" \
       description="For more information on this image please see https://github.com/DemonAzteck/oci-images/tree/main/java/runner"
